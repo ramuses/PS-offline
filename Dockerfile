@@ -7,7 +7,7 @@ RUN apk update && apk upgrade
 RUN apk add git python3
 
 RUN git clone  --progress --verbose https://git.nixnet.services/DUOLabs333/Photopea-Offline.git . \
-    && python3 Updater.py --fonts
+    && python3 Updater.py 
 
 EXPOSE 8887
 
