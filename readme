@@ -1,1 +1,7 @@
+docker for photopea https://www.photopea.com/
+
 based on https://git.nixnet.services/DUOLabs333/Photopea-Offline
+
+使用：
+
+docker run -d --name photopea -p 8887:8887 eorendel/photopea:latest
