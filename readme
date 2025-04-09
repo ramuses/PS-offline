@@ -6,4 +6,4 @@ based on https://gitflic.ru/project/photopea-v2/photopea-v-2
 
 使用：
 
-docker run -d --name photopea -p 8887:8887 eorendel/photopea:latest
+docker run -d --namedocker run -d --restart unless-stopped  --name photopea -p 8887:8887 ramuses/photopea:latest
