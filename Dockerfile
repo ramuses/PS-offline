@@ -8,7 +8,7 @@ RUN apk add git python3
 
 RUN git clone  --progress --verbose https://gitflic.ru/project/photopea-v2/photopea-v-2.git 
 RUN pwd
-#RUN cd /run/photopea-v-2  && python3 Updater.py 
+RUN  python3 /run/photopea-v-2/Updater.py 
 
 EXPOSE 8887
 
