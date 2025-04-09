@@ -4,7 +4,7 @@ WORKDIR /var/run/photopea
 
 RUN apk update && apk upgrade
 
-RUN apk add git python
+RUN apk add git python3
 
 RUN git clone  --progress --verbose https://gitflic.ru/project/photopea-v2/photopea-v-2.git \
     && python Updater.py 
