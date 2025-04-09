@@ -1,6 +1,6 @@
 FROM alpine
 
-WORKDIR /run/photopea-v-2
+WORKDIR /var/run/photopea-v-2
 
 RUN apk update && apk upgrade
 
