@@ -1,5 +1,6 @@
-docker for photopea https://www.photopea.com/
+Photopea Offline, a great free alternative to Photoshop.https://www.photopea.com/
 
+docker for photopea 
 based on https://gitflic.ru/project/photopea-v2/photopea-v-2
 
 本镜像不包含字体文件，若想要将字体文件编译进镜像，修改Dockerfile 文件第11行，在Updater.py后加上参数 --fonts 即可
