@@ -2,7 +2,7 @@ docker for photopea https://www.photopea.com/
 
 based on https://gitflic.ru/project/photopea-v2/photopea-v-2
 
-本镜像不包含字体文件，若想要将字体文件编译进镜像，修改Dockerfile 文件第9行，在命令最后加上参数 --fonts 编译即可
+本镜像不包含字体文件，若想要将字体文件编译进镜像，修改Dockerfile 文件第11行，在Updater.py后加上参数 --fonts 编译即可
 
 使用：
 
